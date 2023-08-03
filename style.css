@@ -1,13 +1,16 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/footer.css");
 
 :root {
     --cor-de-fundo: #F8F8F8;
     --branco: #FFFFFF;
+    --black: #000000f0;
     --laranja: #FFA726;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --azul: #1976D2;
+    --azul: #0043a2;
     --fonte-principal: "Poppins", sans-serif;
   }
 
@@ -22,22 +25,6 @@ body {
 .lista-menu {  
     font-family: var(--fonte-principal);
     }
-
-
-.topicos {
-  background: var(--azul-degrade);
-  color: var(--branco);
-  text-align: center;
-  text-transform: uppercase;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 24px;
-  letter-spacing: 0em;
-  padding: 30px 10px 10px 10px;
-  font-family: 'Poppins', sans-serif;
-  height: 250px;
-}
 
 
 .logo {width: 60px;}
