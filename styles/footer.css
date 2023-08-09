@@ -46,3 +46,16 @@
     text-align: center;
     width: 100%;
 }
+
+@media screen and (min-width: 1024px) {
+    .newsletter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+   .newsletter__banner {
+        width: 50%;
+    }
+}

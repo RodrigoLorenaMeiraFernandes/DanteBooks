@@ -3,6 +3,7 @@
 @import url("styles/carrossel.css");
 @import url("styles/topicos.css");
 @import url("styles/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Montserrat:ital,wght@1,600&family=Poppins:wght@400;700&display=swap');
 
 :root {
     --cor-de-fundo: #F8F8F8;
@@ -12,7 +13,8 @@
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --azul: #0043a2;
     --fonte-principal: "Poppins", sans-serif;
-  }
+    --fonte-secundaria: "Josefin Sans", sans-serif;
+}
 
 
 body {
@@ -24,7 +26,9 @@ body {
 
 .lista-menu {  
     font-family: var(--fonte-principal);
-    }
+}
 
 
-.logo {width: 60px;}
+.logo {
+    width: 60px;
+}
